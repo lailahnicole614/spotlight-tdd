@@ -58,11 +58,8 @@ test('this should multiply a number by twelve and then divide it', (expect) => {
     expect.deepEqual(actual3, expected3, 'i multiplied by 12');
 });
 
-test(
-    'this test should take in three numbers, divide the first by the second,then multiply the rest by the third'
-),
-    (expect) => {
-        const expected = 10;
-        const actual = divideThenMultiply(8, 4, 5);
-        expected.deepEqual(actual, expected);
-    };
+test('this test should take in three numbers, divide the first by the second,then multiply the rest by the third', (expect) => {
+    const expected = 10;
+    const actual = divideThenMultiply(8, 4, 5);
+    expect.deepEqual(actual, expected);
+});

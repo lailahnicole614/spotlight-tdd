@@ -64,8 +64,7 @@ Output:
 */
 export function divideThenMultiply(num1, num2, num3) {
     const divideThenMultiply = (num1 / num2) * num3;
-    console.log(divideThenMultiply);
-    return divideThenMultiply * num3;
+    return divideThenMultiply;
 }
 // This function should take in three numbers and return those numbers in an array
 
