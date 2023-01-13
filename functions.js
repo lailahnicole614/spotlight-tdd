@@ -95,8 +95,10 @@ Output:
 '845'
 */
 
-export function returnAsAString(firstNumber, secondNumber, thirdNumber) {
-    return `${firstNumber}${secondNumber}${thirdNumber}`;
+export function returnAsAString(num1, num2, num3) {
+    console.log(num3);
+    // const returnAsAString = num1 + num2 + num3;
+    return `${num1}${num2}${num3}`;
 }
 
 // This function should take in two numbers and return a greeting announcing that the sum of those numbers is today's lucky number
