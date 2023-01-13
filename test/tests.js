@@ -121,13 +121,13 @@ test('this test should take two numbers and return a greeting announcing the sum
 test('this test should take an array and return the second item in an array', (expect) => {
     const expected = 'apple';
     const actual = getSecondItem(['kiwi', 'apple', 'orange', 'plum']);
-    expect.deepEqual(actual, expected);
+    expect.deepEqual(actual, expected, 'the second item is picked');
 
     const expected2 = 'apple';
     const actual2 = getSecondItem(['kiwi', 'apple', 'orange', 'plum']);
-    expect.deepEqual(actual, expected);
+    expect.deepEqual(actual, expected, 'the second item is picked');
 
     const expected3 = 'apple';
     const actual3 = getSecondItem(['kiwi', 'apple', 'orange', 'plum']);
-    expect.deepEqual(actual, expected);
+    expect.deepEqual(actual, expected, 'the second item is picked');
 });

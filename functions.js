@@ -96,8 +96,6 @@ Output:
 */
 
 export function returnAsAString(num1, num2, num3) {
-    console.log(num3);
-    // const returnAsAString = num1 + num2 + num3;
     return `${num1}${num2}${num3}`;
 }
 
