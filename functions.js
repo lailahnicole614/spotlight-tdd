@@ -79,8 +79,8 @@ Output:
 */
 
 export function returnAsAnArray(firstNumber, secondNumber, thirdNumber) {
-    const array = [firstNumber, secondNumber, thirdNumber];
-    return firstNumber, secondNumber, (thirdNumber = [firstNumber, secondNumber, thirdNumber]);
+    const returnAsAnArray = [firstNumber, secondNumber, thirdNumber];
+    return returnAsAnArray;
 }
 
 // This function should take in three numbers and return those numbers mushed together as a string

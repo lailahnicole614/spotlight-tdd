@@ -74,7 +74,7 @@ test('this test should take in three numbers, divide the first by the second,the
 });
 
 test('this test should take three numbers and return them as an array', (expect) => {
-    const expected = 0;
-    const actual = returnAsAnArray(0, 0, 0);
+    const expected = [8, 4, 5];
+    const actual = returnAsAnArray(8, 4, 5);
     expect.deepEqual(actual, expected);
 });
