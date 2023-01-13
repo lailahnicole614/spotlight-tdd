@@ -62,4 +62,8 @@ test('this test should take in three numbers, divide the first by the second,the
     const expected = 10;
     const actual = divideThenMultiply(8, 4, 5);
     expect.deepEqual(actual, expected);
+
+    const expected2 = 25;
+    const actual2 = divideThenMultiply(10, 2, 5);
+    expect.deepEqual(actual2, expected2);
 });
