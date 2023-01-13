@@ -30,7 +30,6 @@ Output:
 28 
 */
 export function multiplyBySeven(num) {
-    console.log(num);
     return num * 7;
 }
 
