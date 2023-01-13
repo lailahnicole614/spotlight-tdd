@@ -92,4 +92,8 @@ test('this test should take take in three numbers and return those numbers mushe
     const expected = '845';
     const actual = returnAsAString(8, 4, 5);
     expect.deepEqual(actual, expected);
+
+    const expected2 = '911';
+    const actual2 = returnAsAString(9, 1, 1);
+    expect.deepactual(actual2, expected2);
 });
