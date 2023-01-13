@@ -29,9 +29,9 @@ Output:
 
 28 
 */
-
 export function multiplyBySeven(num) {
-    return true;
+    console.log(num);
+    return num * 7;
 }
 
 // This function should take in a number and multiply it by twelve then cut the result in half
@@ -48,7 +48,8 @@ Output:
 */
 
 export function multiplyBy12ThenHalve(num) {
-    return true;
+    const multiplyTwelve = num * 12;
+    return multiplyTwelve / 2;
 }
 
 // This function should take in three numbers, divide the first by the second, then multiply the result by the third
@@ -64,7 +65,8 @@ Output:
 */
 
 export function divideThenMultiply(firstNumber, secondNumber, thirdNumber) {
-    return true;
+    const divideNumbers = firstNumber / secondNumber;
+    return divideNumbers * thirdNumber;
 }
 
 // This function should take in three numbers and return those numbers in an array
@@ -80,7 +82,8 @@ Output:
 */
 
 export function returnAsAnArray(firstNumber, secondNumber, thirdNumber) {
-    return true;
+    const array = [firstNumber, secondNumber, thirdNumber];
+    return firstNumber, secondNumber, (thirdNumber = [firstNumber, secondNumber, thirdNumber]);
 }
 
 // This function should take in three numbers and return those numbers mushed together as a string
@@ -96,7 +99,7 @@ Output:
 */
 
 export function returnAsAString(firstNumber, secondNumber, thirdNumber) {
-    return true;
+    return `${firstNumber}${secondNumber}${thirdNumber}`;
 }
 
 // This function should take in two numbers and return a greeting announcing that the sum of those numbers is today's lucky number
@@ -112,7 +115,7 @@ Output:
 */
 
 export function makeLuckyGreeting(firstNumber, secondNumber) {
-    return true;
+    return firstNumber + secondNumber + 'your lucky number';
 }
 
 // This function should take an array and return the second item in the array
@@ -128,8 +131,9 @@ Output:
 
 */
 
-export function getSecondItem(array) {
-    return true;
+export function getSecondItem(firstItem, secondItem, thirdItem, fourthItem) {
+    const array = [firstItem, secondItem, thirdItem, fourthItem];
+    return secondItem;
 }
 
 // This function should take an array and return the LAST item in the array, no matter the array's length
@@ -147,8 +151,9 @@ Output:
 
 // ======================================= STRETCH GOALS ============================================
 
-export function getLastItem(array) {
-    return true;
+export function getLastItem(firstItem, secondItem, thridItem, fourthItem) {
+    const array = [firstItem, secondItem, thridItem, fourthItem];
+    return lastItem;
 }
 
 // This function should take a dog object and return an <li> with the name of the dog
