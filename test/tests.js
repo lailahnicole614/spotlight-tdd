@@ -77,4 +77,12 @@ test('this test should take three numbers and return them as an array', (expect)
     const expected = [8, 4, 5];
     const actual = returnAsAnArray(8, 4, 5);
     expect.deepEqual(actual, expected);
+
+    const expected2 = [10, 9, 8];
+    const actual2 = returnAsAnArray(10, 9, 8);
+    expect.deepEqual(actual2, expected2);
+
+    const expected3 = [3, 2, 1];
+    const actual3 = returnAsAnArray(3, 2, 1);
+    expect.deepEqual(actual3, expected2);
 });
