@@ -47,7 +47,6 @@ Output:
 */
 
 export function multiplyBy12ThenHalve(num) {
-    console.log(num);
     const multiplyTwelve = num * 12;
     return multiplyTwelve / 2;
 }
@@ -64,9 +63,10 @@ Output:
 10 (because 8 divided by 4 is 2, times 5 is 10)
 */
 
-export function divideThenMultiply(firstNumber, secondNumber, thirdNumber) {
-    const divideNumbers = firstNumber / secondNumber;
-    return divideNumbers * thirdNumber;
+export function divideThenMultiply(num) {
+    console.log(num);
+    const divideNumbers = num / num;
+    return multiplyNumbers * num;
 }
 
 // This function should take in three numbers and return those numbers in an array

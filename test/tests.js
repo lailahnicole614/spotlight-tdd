@@ -4,6 +4,7 @@ import {
     addExclamationPoints,
     multiplyBySeven,
     multiplyBy12ThenHalve,
+    divideThenMultiply,
 } from '../functions.js';
 const { test, skip } = QUnit;
 
@@ -55,4 +56,10 @@ test('this should multiply a number by twelve and then divide it', (expect) => {
     const expected3 = 36;
     const actual3 = multiplyBy12ThenHalve(6);
     expect.deepEqual(actual3, expected3, 'i multiplied by 12');
+});
+
+test('this should take 3 numbers, divide by the second,then multiply the result by the third', (expect) => {
+    const expected = 10;
+    const actual = divideThenMultiply(8, 4, 5);
+    expect.deepEqual(actual, expected);
 });
