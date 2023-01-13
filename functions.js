@@ -113,8 +113,9 @@ Output:
 'Hello! Your lucky number for the day is 12.'
 */
 
-export function makeLuckyGreeting(firstNumber, secondNumber) {
-    return firstNumber + secondNumber + 'your lucky number';
+export function makeLuckyGreeting(num1, num2) {
+    const makeLuckyGreeting = num1 + num2;
+    return makeLuckyGreeting + 'Hello! Your lucky number for the day is';
 }
 
 // This function should take an array and return the second item in the array
