@@ -46,8 +46,13 @@ test('this test should multiply by seven', (expect) => {
 test('this should multiply a number by twelve and then divide it', (expect) => {
     const expected = 24;
     const actual = multiplyBy12ThenHalve(4);
-    expect.deepEqual(actual, expected);
+    expect.deepEqual(actual, expected, 'i multiplied by 12');
+
     const expected2 = 12;
     const actual2 = multiplyBy12ThenHalve(2);
-    expect.deepEqual(actual2, expected2);
+    expect.deepEqual(actual2, expected2, 'i multiplied by 12');
+
+    const expected3 = 36;
+    const actual3 = multiplyBy12ThenHalve(6);
+    expect.deepEqual(actual3, expected3, 'i multiplied by 12');
 });
