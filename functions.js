@@ -48,6 +48,7 @@ Output:
 */
 
 export function multiplyBy12ThenHalve(num) {
+    console.log(num);
     const multiplyTwelve = num * 12;
     return multiplyTwelve / 2;
 }
