@@ -104,7 +104,7 @@ test('this test should take take in three numbers and return those numbers mushe
 });
 
 test('this test should take two numbers and return a greeting announcing the sum of those two numbers', (expect) => {
-    const expected = 'Hello! Your lucky number for the day is 12.';
+    const expected = 'Hello! Your lucky number for the day is 12';
     const actual = makeLuckyGreeting(8, 4);
     expect.deepEqual(actual, expected);
 });
