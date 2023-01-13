@@ -122,4 +122,12 @@ test('this test should take an array and return the second item in an array', (e
     const expected = 'apple';
     const actual = getSecondItem(['kiwi', 'apple', 'orange', 'plum']);
     expect.deepEqual(actual, expected);
+
+    const expected2 = 'apple';
+    const actual2 = getSecondItem(['kiwi', 'apple', 'orange', 'plum']);
+    expect.deepEqual(actual, expected);
+
+    const expected3 = 'apple';
+    const actual3 = getSecondItem(['kiwi', 'apple', 'orange', 'plum']);
+    expect.deepEqual(actual, expected);
 });

@@ -131,10 +131,9 @@ Output:
 
 */
 
-export function getSecondItem(firstItem, secondItem, thirdItem, fourthItem) {
-    console.log(secondItem);
-    const array = [firstItem, secondItem, thirdItem, fourthItem];
-    return secondItem;
+export function getSecondItem(array) {
+    // const array = [firstItem, secondItem, thirdItem, fourthItem];
+    return array[1];
 }
 
 // This function should take an array and return the LAST item in the array, no matter the array's length
