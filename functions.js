@@ -62,13 +62,11 @@ Output:
 
 10 (because 8 divided by 4 is 2, times 5 is 10)
 */
-
-export function divideThenMultiply(num) {
-    console.log(num);
-    const divideNumbers = num / num;
-    return multiplyNumbers * num;
+export function divideBy(firstNumber, secondNumber, multiplyBy, thirdNumber) {
+    console.log(firstNumber, secondNumber, thirdNumber);
+    const divideBy = (firstNumber, secondNumber);
+    return multiplyBy() * thirdNumber;
 }
-
 // This function should take in three numbers and return those numbers in an array
 
 /* 
