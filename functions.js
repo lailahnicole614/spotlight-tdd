@@ -132,6 +132,7 @@ Output:
 */
 
 export function getSecondItem(firstItem, secondItem, thirdItem, fourthItem) {
+    console.log(secondItem);
     const array = [firstItem, secondItem, thirdItem, fourthItem];
     return secondItem;
 }
